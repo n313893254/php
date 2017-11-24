@@ -1,2 +1,3 @@
 FROM busybox
+ADD foo.file /
 RUN echo test

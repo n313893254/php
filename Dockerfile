@@ -1,5 +1,4 @@
 FROM php:7.0
 
-ADD docker_install.sh /docker_install.sh
+RUN echo "I built an image"
 
-RUN bash /docker_install.sh

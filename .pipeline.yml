@@ -1,0 +1,14 @@
+name: php
+stages:
+- name: clone
+  steps:
+  - sourceCodeConfig:
+      url: https://github.com/gitlawr/php.git
+      branch: master
+      branchCondition: only
+- name: build
+  steps:
+  - runScriptConfig:
+      image: php:latest
+      isShell: true
+      shellScript: echo hiinmaster

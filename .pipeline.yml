@@ -4,9 +4,8 @@ stages:
   steps:
   - sourceCodeConfig:
       url: https://github.com/gitlawr/php.git
-      branch: master
+      branch: test
       branchCondition: only
-      sourceCodeCredentialId: user-4kz45:local-github-gitlawr
 - name: build
   steps:
   - runScriptConfig:
